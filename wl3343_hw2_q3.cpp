@@ -13,29 +13,29 @@ int main()
 
 	cout << "Please enter the number of days John has worked: ";
 	cin >> daysJohn;
-	cout << "Please	enter the number of hours John has worked: ";
+	cout << "Please enter the number of hours John has worked: ";
 	cin >> hoursJohn;
 	cout << "Please enter the number of minutes John has worked: ";
 	cin >> minutesJohn;
 
 
-	cout << "\n\n" << "Please	enter the number of days Bill has worked: ";
+	cout << "\n\n" << "Please enter the number of days Bill has worked: ";
 	cin >> daysBill;
-	cout << "Please	enter the number of hours Bill has worked: ";
+	cout << "Please enter the number of hours Bill has worked: ";
 	cin >> hoursBill;
 	cout << "Please enter the number of minutes Bill has worked: ";
 	cin >> minutesBill;
 
-	// 1 day = 24 hrs
+
+	// 1 day = 24 hrs //
 	totalHours = ((daysJohn + daysBill) * 24) + hoursJohn + hoursBill;
-	// 1 hr = 60 minutes
+	totalDays = totalHours / 24;
+	// totalHours = totalHours % 24;
+	totalHours %= 24;
+	// 1 hr = 60 minutes //
 	totalMinutes = (totalHours * 60) + minutesJohn + minutesBill;
-	// 1 day = 1440 minutes
-	totalDays = totalMinutes / 1440;
-	// total minutes mod minuate is still in minute
-	totalHours = (totalMinutes % 1440) / 60;
-	// totalHours = totalDays / 24;	
-	totalMinutes = totalMinutes % 60;
+	// totalMinutes = totalMinutes % 60;
+	totalMinutes %= 60;
 	
 	cout << "\n\n" << "The total time both of them worked together is: " << totalDays << " days, " << totalHours << " hours and " << totalMinutes << " minutes." << endl;
 
