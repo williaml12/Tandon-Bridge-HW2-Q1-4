@@ -13,6 +13,9 @@ that fit in the	remaining	amount,	and so on
 Your	program	should	interact	with	the	user	exactly	as	it	shows	in	the	following	example:	
 Please enter your	amount	in the	format	of dollars and cents separated by	a	space:
 
+
 4	 37
+
 4	dollars and 37 cents are:
+
 17 quarters,	1	dimes,	0	nickels and	2	pennies
