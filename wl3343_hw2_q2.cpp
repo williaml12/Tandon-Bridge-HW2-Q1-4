@@ -22,10 +22,14 @@ int main()
 	quarters = total_cents / 25;
 	remaining_cents = total_cents % 25;
 	dimes = remaining_cents / 10;
+	// remaining_cents = remaining_cents % 10
 	remaining_cents %= 10;
 	nickels = remaining_cents / 5;
-	pennies = remaining_cents % 5;
-
+	// remaining_cents = remaining_cents % 5;
+	remaining_cents %= 5;
+	// pennies = remaining_cents % 5;
+	pennies = remaining_cents;
+	
 	cout << quarters << " quarters, " << dimes << " dimes, " << nickels << " nickels and " << pennies << " pennies." << endl;
 	
 	return 0;
