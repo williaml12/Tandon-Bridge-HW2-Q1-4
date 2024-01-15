@@ -1,5 +1,5 @@
 # Tandon-Bridge-HW2-Q1-4
-HW2 Q1 to Q4
+## HW2 Q1 to Q4
 
 Question	2:
 Write	a	program	that	asks	the	user	to	enter	an	amount	of	money	in	the	format	of	dollars	
