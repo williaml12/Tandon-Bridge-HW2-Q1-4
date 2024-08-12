@@ -9,5 +9,6 @@
 
 ![Question4](./images/hw2_q4.jpg)
 
-## Load the code to compiler
-- load the *.cpp file
+## Run the application
+- Load the code to compiler
+  - load the *.cpp file
